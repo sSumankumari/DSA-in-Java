@@ -1,10 +1,12 @@
-public class MatrixTranspose {
+package TwoDArray;
+
+public class PrintingMatrix {
     public static void main(String[] args) {
         int[][] arr = {{1,3,5,7},{10,11,16,20},{23,30,34,60}};
         int n = arr.length;
         int m = arr[0].length;
 
-        System.out.println("Original array: ");
+        System.out.println("Original matrix: ");
         for (int i=0; i<n; i++){
             for (int j=0; j<m; j++){
                 System.out.print(arr[i][j]+ " ");
@@ -12,7 +14,7 @@ public class MatrixTranspose {
             System.out.println();
         }
 
-        System.out.println("\nTransposed array: ");
+        System.out.println("\nPrinting Transpose of matrix: ");
         for (int i=0; i<m; i++){
             for (int j=0; j<n; j++){
                 System.out.print(arr[j][i]+ " ");

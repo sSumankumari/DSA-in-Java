@@ -1,6 +1,8 @@
+package Strings;
+
 import java.util.Scanner;
 
-public class Array {
+public class ArrayBasics {
     public static void main(String[] args) {
         // Array: A container that contains the element of same datatype in a contiguous memory allocation
         Scanner sc = new Scanner(System.in);

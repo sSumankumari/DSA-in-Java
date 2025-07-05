@@ -1,3 +1,5 @@
+package TwoDArray;
+
 public class JaggedArray {
     public static void main(String[] args) {
 //        int arr[][] = {{1,3,5,7},{10,11,16,20},{7,2},{23,30,34,60,15}};

@@ -1,3 +1,5 @@
+package TwoDArray;
+
 import java.util.Scanner;
 
 public class TwoDimensionalArray {
