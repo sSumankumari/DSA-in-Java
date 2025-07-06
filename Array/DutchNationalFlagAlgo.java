@@ -15,34 +15,21 @@ public class DutchNationalFlagAlgo {
     public static void sort(int[] arr){
         int start=0;
         int end=arr.length-1;
-        for (int i=0; i<=end; i++){
+
+        int i=0;
+        while (i<=end){
             if (arr[i]==0){
                 int temp = arr[start];
                 arr[start] = arr[i];
                 arr[i] = temp;
                 start++;
+                i++;
             } else if (arr[i]==2){
                 int temp = arr[end];
                 arr[end] = arr[i];
                 arr[i] = temp;
                 end--;
-            }
+            } else i++;
         }
-
-//        int i=0;
-//        while (i<=end){
-//            if (arr[i]==0){
-//                int temp = arr[start];
-//                arr[start] = arr[i];
-//                arr[i] = temp;
-//                start++;
-//                i++;
-//            } else if (arr[i]==2){
-//                int temp = arr[end];
-//                arr[end] = arr[i];
-//                arr[i] = temp;
-//                end--;
-//            } else i++;
-//        }
     }
 }
