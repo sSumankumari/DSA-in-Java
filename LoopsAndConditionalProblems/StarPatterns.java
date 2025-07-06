@@ -29,7 +29,7 @@ public class StarPatterns {
 //        }
 
         // Triangle or Pyramid pattern
-//        int row=5;
+        int row=5;
 //        int i=1;
 //        while (i<=row) {
 //            int j=1;
@@ -96,40 +96,60 @@ public class StarPatterns {
         //    ***
         //     *
 
-        int row=5;
-        int i=1;
-        while (i<=row) {
-            int j=1;
-            while (j<=row-i) {
-                System.out.print(" ");
-                j++;
-            }
+//        int row=5;
+//        int i=1;
+//        while (i<=row) {
+//            int j=1;
+//            while (j<=row-i) {
+//                System.out.print(" ");
+//                j++;
+//            }
+//
+//            int k=1;
+//            while (k<=2*i-1) {
+//                System.out.print("*");
+//                k++;
+//            }
+//            System.out.println();
+//            i++;
+//        }
+//
+//        i = row-1;
+//
+//        while (i>=1) {
+//            int j=1;
+//            while (j<=row-i) {
+//                System.out.print(" ");
+//                j++;
+//            }
+//
+//            int k=1;
+//            while (k<=2*i-1) {
+//                System.out.print("*");
+//                k++;
+//            }
+//            System.out.println();
+//            i--;
+//        }
 
-            int k=1;
-            while (k<=2*i-1) {
+        for (int i=0; i<row; i++){
+            for (int j=0; j<row-i-1; j++){
+                System.out.print(" ");
+            }
+            for (int k=0; k<2*i+1; k++){
                 System.out.print("*");
-                k++;
             }
             System.out.println();
-            i++;
         }
 
-        i = row-1;
-
-        while (i>=1) {
-            int j=1;
-            while (j<=row-i) {
+        for (int i=row-2; i>=0; i--){
+            for (int j=0; j<row-i-1; j++){
                 System.out.print(" ");
-                j++;
             }
-
-            int k=1;
-            while (k<=2*i-1) {
+            for (int k=0; k<2*i+1; k++){
                 System.out.print("*");
-                k++;
             }
             System.out.println();
-            i--;
         }
     }
 }
