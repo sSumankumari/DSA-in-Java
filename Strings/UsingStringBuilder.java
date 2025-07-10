@@ -6,7 +6,7 @@ public class UsingStringBuilder {
         long startTime1 = System.currentTimeMillis();
         String ans = "";
         System.out.println("Starting string concatenation...");
-        for (int i=0; i<50000; i++) {
+        for (int i=0; i<500000; i++) {
             ans = ans + "0";
         }
         long endTime1 = System.currentTimeMillis();
@@ -17,7 +17,7 @@ public class UsingStringBuilder {
         long startTime2 = System.currentTimeMillis();
         StringBuilder sb = new StringBuilder();
         System.out.println("Starting UsingStringBuilder append...");
-        for (int i=0; i<50000; i++) {
+        for (int i=0; i<500000; i++) {
             sb.append("0");
         }
         long endTime2 = System.currentTimeMillis();
