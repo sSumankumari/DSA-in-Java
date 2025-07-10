@@ -37,5 +37,30 @@ public class DiagonalPrint {
             }
             System.out.println();
         }
+
+        System.out.println("Diagonal Elements Print(based on column increment): ");
+//        for (int col=0; col<m; col++){
+//            int r=0;
+//            int c=col;
+//
+//            while (r>=0 && c<m){
+//                System.out.print(arr[c][r]+" ");
+//                r--;
+//                c++;
+//            }
+//            System.out.println();
+//        }
+//
+//        for (int row=1; row<n; row++){
+//            int r=row;
+//            int c=m-1;
+//
+//            while (c<m && r>=0){
+//                System.out.print(arr[c][r]+" ");
+//                r--;
+//                c++;
+//            }
+//            System.out.println();
+//        }
     }
 }
