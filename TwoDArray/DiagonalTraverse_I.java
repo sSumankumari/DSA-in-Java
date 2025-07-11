@@ -1,8 +1,6 @@
 package TwoDArray;
 
-import java.util.Scanner;
-
-public class ZigZagDiagonalPrint {
+public class DiagonalTraverse_I {
     public static int[] findDiagonalOrder(int[][] mat) {
         int m = mat.length;
         int n = mat[0].length;
