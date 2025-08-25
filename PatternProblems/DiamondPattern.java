@@ -1,3 +1,5 @@
+package PatternProblems;
+
 import java.util.Scanner;
 
 public class DiamondPattern {
