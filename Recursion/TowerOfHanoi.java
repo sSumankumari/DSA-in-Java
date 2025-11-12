@@ -20,9 +20,11 @@ public class TowerOfHanoi {
         int rings = 4;
 
         char src = 'A';
-        char dest = 'B';
-        char helper = 'C';
+        char dest = 'C';
+        char helper = 'B';
 
         moveRings(rings, src, helper, dest);
+        System.out.println();
+        moveRings(3, src, helper, dest);
     }
 }
