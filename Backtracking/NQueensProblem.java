@@ -1,12 +1,6 @@
 package Backtracking;
 
 public class NQueensProblem {
-    public static void main(String[] args) {
-        int queen = 4;
-        int[][] q_arr = new int[queen][queen];
-
-        place(0, queen, q_arr);
-    }
     public static boolean isSafe(int row, int col, int[][] arr){
         // Up-side
         int r = row;
@@ -57,5 +51,11 @@ public class NQueensProblem {
             System.out.println();
         }
         System.out.println();
+    }
+    public static void main(String[] args) {
+        int queen = 4;
+        int[][] q_arr = new int[queen][queen];
+
+        place(0, queen, q_arr);
     }
 }
