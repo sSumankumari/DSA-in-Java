@@ -1,4 +1,4 @@
-package Sorting;
+package DivideNConquer;
 
 public class FindPivotIndex {
     public static void main(String[] args) {

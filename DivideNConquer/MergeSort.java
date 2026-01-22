@@ -1,4 +1,4 @@
-package Sorting;
+package DivideNConquer;
 
 public class MergeSort {
     public static int[] sort(int start, int end, int[] arr){
