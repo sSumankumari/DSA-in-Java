@@ -1,4 +1,4 @@
-package Sorting;
+package BasicSortingAlgo;
 
 public class NSquareSortingMethods {
     public static void bubbleSort(int[] arr){

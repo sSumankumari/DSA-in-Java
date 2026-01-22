@@ -1,4 +1,4 @@
-package Sorting;
+package BasicSortingAlgo;
 
 public class SelectionSort {
     public static void main(String[] args) {
